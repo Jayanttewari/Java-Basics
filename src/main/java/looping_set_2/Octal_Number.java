@@ -10,6 +10,7 @@ public class Octal_Number {
     {
         int dec_num, rem, quot, i=1, j;
         int oct_num[] = new int[100];
+        //convert a decimal number into octal without using an array
         Scanner sc = new Scanner(System.in);
         try {
             System.out.print("Input a Decimal Number: ");
@@ -19,6 +20,8 @@ public class Octal_Number {
             if (i < 0) {
                 throw new IllegalArgumentException();
             }
+            //
+            //Take input from the user
         }catch(Exception e){
             System.out.println("Enter valid Input");
             System.out.print("Input a Decimal Number: ");

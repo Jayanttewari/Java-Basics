@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class HCF {
     public static void main(String args[]){
         int a, b, i, hcf = 0;
+        //HCF of two number
         Scanner sc = new Scanner(System.in);
         try {
             System.out.println("Enter first number :: ");
@@ -18,6 +19,9 @@ public class HCF {
             if (b < 0) {
                 throw new IllegalArgumentException();
             }
+            //Enter the input
+            //Take input from the user
+            //Create an instance of the Scanner class
         }catch(Exception e){
             System.out.println("Enter valid Input");
             System.out.println("Enter first number :: ");

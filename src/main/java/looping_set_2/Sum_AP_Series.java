@@ -17,7 +17,7 @@ public class Sum_AP_Series {
             System.out.print("\n\n  Find out the sum of A.P. series :\n ");
             System.out.println("----------------------------------------");
 
-
+           //"Input  the starting number of the A.P. series:
             System.out.print("Input  the starting number of the A.P. series: ");
             n1 = Integer.parseInt(sc.next());
 
@@ -26,7 +26,7 @@ public class Sum_AP_Series {
 
             System.out.print("Input  the common difference of A.P. series: ");
             df = Integer.parseInt(sc.next());
-
+           //The Sum of the  A.P. series are
             s1 = (n2 * (2 * n1 + (n2 - 1) * df)) / 2;
             ln = n1 + (n2 - 1) * df;
             System.out.println("\nThe Sum of the  A.P. series are : ");

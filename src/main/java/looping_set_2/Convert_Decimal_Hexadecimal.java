@@ -16,6 +16,7 @@ public class Convert_Decimal_Hexadecimal {
         char hex[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
 
         Scanner sc = new Scanner(System.in);
+        //convert the decimal number to hexadecimal number
         try {
             System.out.print("Input a decimal number: ");
             dec_num = Integer.parseInt(sc.next());

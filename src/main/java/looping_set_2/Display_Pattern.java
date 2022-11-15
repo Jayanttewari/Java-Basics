@@ -7,6 +7,7 @@ package Practice.src.main.java.looping_set_2;
 import java.util.Scanner;
 public class Display_Pattern {
     public static void main(String args[]) {
+        //display pattern for n number of rows
         int n;
         Scanner sc = new Scanner(System.in);
         try {

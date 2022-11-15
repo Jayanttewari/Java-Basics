@@ -7,17 +7,21 @@
 package Practice.src.main.java.looping_set_2;
 import java.util.Scanner;
 public class Alphabet_Pattern {
+    //Main method call
     public static void main(String args[]) {
         byte alph = 'A';
         int n;
         int k = 1;
+        //using scanner
         Scanner sc = new Scanner(System.in);
+        //check for every number less than 26
         try {
             System.out.print("Input the number of Letters (less than 26) in the Pyramid : ");
             n = Integer.parseInt(sc.next());
             if (k < 0) {
                 throw new IllegalArgumentException();
             }
+            //input the letter
         }catch(Exception e){
             System.out.println("Enter valid Input");
             System.out.print("Input the number of Letters (less than 26) in the Pyramid : ");

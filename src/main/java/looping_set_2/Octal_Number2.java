@@ -18,6 +18,8 @@ public class Octal_Number2 {
             if (octal_num < 0) {
                 throw new IllegalArgumentException();
             }
+
+            //Take input from the user
         }catch(Exception e){
         System.out.println("Enter valid Input");
         System.out.print("Input any octal number: ");

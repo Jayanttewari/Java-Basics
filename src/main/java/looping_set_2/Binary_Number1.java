@@ -11,6 +11,7 @@ public class Binary_Number1 {
         int n1, n;
         int dec = 0, i = 0, j, d;
         Scanner sc = new Scanner(System.in);
+        //convert Binary number to Decimal Number
         try {
 
             System.out.print("\n\nConvert Binary to Decimal:\n ");
@@ -29,8 +30,7 @@ public class Binary_Number1 {
 
             System.out.print("\n\nConvert Binary to Decimal:\n ");
             System.out.println("-------------------------");
-
-
+            //Input the Binary number
             System.out.print("Input  the binary number :");
             n = Integer.parseInt(sc.next());
             n1 = n;

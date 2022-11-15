@@ -9,9 +9,11 @@ import java.util.Scanner;
 public class Convert_Octal_Binary {
     public static void main(String[] args)
     {
+        //convert octal number to Binary Number
         int[] octal_numvalues = {0, 1, 10, 11, 100, 101, 110, 111};
         long octal_num, tempoctal_num, binary_num, place;
         int rem;
+        //using scanner
         Scanner sc = new Scanner(System.in);
         try {
             System.out.print("Input any octal number: ");
@@ -19,6 +21,7 @@ public class Convert_Octal_Binary {
             tempoctal_num = octal_num;
             binary_num = 0;
             place = 1;
+            //tempoctal_num is less than 0
             if (tempoctal_num < 0) {
                 throw new IllegalArgumentException();
             }

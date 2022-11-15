@@ -15,7 +15,9 @@ public class Diamond_Pattern {
     public static void main(String[] args)
     {
         int i,j,r;
+        //using scanner
         Scanner sc = new Scanner(System.in);
+        //Input number of rows
         try {
             System.out.print("Input number of rows (half of the diamond) : ");
             r = Integer.parseInt(sc.next());

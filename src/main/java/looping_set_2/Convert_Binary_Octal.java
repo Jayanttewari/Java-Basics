@@ -21,6 +21,7 @@ public class Convert_Binary_Octal {
         }catch (Exception e){
             System.out.println("Enter valid Input");
             System.out.print("Input a Binary Number : ");
+            //Binary number digit
             binnum = Integer.parseInt(sc.next());
             binnum1=binnum;
         }

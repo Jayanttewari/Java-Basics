@@ -10,9 +10,11 @@ public class Binary_Number {
     public static void main(String[] args)
     {
         long binaryNumber, decimalNumber = 0, j = 1, remainder;
+        //using scanner
         Scanner sc = new Scanner(System.in);
         try {
             System.out.print("Input a binary number: ");
+            //binary number digit
             binaryNumber = Integer.parseInt(sc.next());
             if (binaryNumber < 0) {
                 throw new IllegalArgumentException();

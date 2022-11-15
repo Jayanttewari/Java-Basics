@@ -10,6 +10,7 @@ public class Check_Armstrong_Number {
 
         int originalNum, digit, cubeSum = 0,num;
         Scanner sc = new Scanner(System. in );
+        // checking the Armstrong Number
         try {
             System.out.println("Enter the number:");
             num = Integer.parseInt(sc.next());
@@ -17,6 +18,7 @@ public class Check_Armstrong_Number {
             if (cubeSum < 0) {
                 throw new IllegalArgumentException();
             }
+            //Enter the number
         }catch(Exception e){
             System.out.println("Enter valid number");
             System.out.println("Enter the number:");
