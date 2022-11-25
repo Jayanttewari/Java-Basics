@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="student" class="org.example.Student1">
+        <constructor-arg name="name" value="Ram"/>
+        <constructor-arg name="mobile">
+        <list>
+            <value>8954888918</value>
+            <value>7654576767</value>
+            <value>5675656565</value>
+        </list>
+        </constructor-arg>
+
+        <constructor-arg name="address">
+            <set>
+                <value>Mumbai</value>
+                <value>Delhi</value>
+                <value>Pune</value>
+            </set>
+        </constructor-arg>
+        <constructor-arg name="courses">
+            <map>
+                <entry key="phy" value="2 month"/>
+                <entry key="chem" value="3 month"/>
+                <entry key="math" value="4 month"/>
+            </map>
+        </constructor-arg>
+    </bean>
+
+    <bean name="student2" class="org.example.Student1">
+        <property name="name" value="Jayant"/>
+
+        <property name="mobile">
+            <list>
+                <value>768768767</value>
+                <value>545445455</value>
+                <value>654544654</value>
+            </list>
+        </property>
+
+        <property name="address">
+            <set>
+                <value>Mumbai</value>
+                <value>Delhi</value>
+                <value>pune</value>
+            </set>
+        </property>
+
+        <property name="courses">
+            <map>
+                <entry key="java" value="2 month"/>
+                <entry key="c" value="4 month"/>
+                <entry key="phython" value="1 month"/>
+            </map>
+        </property>
+
+    </bean>
+</beans>
